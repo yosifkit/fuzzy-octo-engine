@@ -11,7 +11,7 @@ on:
 
 jobs:
   windows-matrix:
-    name: "Windows Matrix ${{ martrix.os }}"
+    name: "Windows Matrix ${{ matrix.os }}"
     strategy:
       matrix:
         os: [ "2019", "2022", "2025" ]
